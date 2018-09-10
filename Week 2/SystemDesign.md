@@ -33,7 +33,7 @@
 ## 3 系统设计
 ### 3.1 功能模块
 软件主要分为标题、引用和列表模块，段落和代码模块，强调和标记模块，链接和图片模块和导出文件模块。     
-![YuHang](7.jpg)       
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/7.jpg)       
 
 ### 3.2 系统管理员功能需求
 - Markdown文本转换：根据用户输入的Markdown文本，提供转换后的预览；         
@@ -50,7 +50,7 @@
 
 ### 3.4 系统流程分析
 Markdown Editor使用时用户需要进行输入，输入后可以进行Markdown文本的转换和预览，以及导出文件等操作，系统总体使用流程如下图。
-![YuHang](8.jpg)     
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/8.jpg)     
 
 ## 4 数据结构设计
 ### 4.1 E-R实体图
