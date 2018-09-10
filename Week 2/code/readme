@@ -1,6 +1,6 @@
 
 本文档概要介绍组成 MarkdownEditor 应用程序的每个文件的内容的初期设想。
-        基于c++实现在windows的桌面应用
+基于c++实现在windows的桌面应用
 
 MarkdownEditor.h
 应用程序的主要头文件。
@@ -19,5 +19,16 @@ Windows 资源管理器样式: 项目将包含 Windows 资源管理器样式的�
 MainFrm.h, MainFrm.cpp
 这些文件包含框架类 CMainFrame，该类派生自 CFrameWnd 并控制所有 SDI 框架功能。
 
+CFrameWnd类往往用于创建应用程序的主窗口，因为它能很好地支持系统菜单和控制条（工具条、状态条等），
+为此定义了大量的成员函数和变量。在编写文档/视图结构的应用程序时，CFrameWnd作为主窗口管理视图和文档对象。
+视图对象和控制条都成为CFrameWnd的子窗口，它们分享客户区，其位置被CFrameWnd有效地排列。
+CFrameWnd直接支持单文档界面（SDI），对于多文档界面（MDI），使用其派生类CMDIFrameWnd和CMDIChildWnd。
+
 LeftView.h, LeftView.cpp
-这些文件包含左框架类 CLeftView，该类派生自 CTreeView。
+这些文件包含左框架类 CLeftView，该类派生自 CTreeView (MFC类)。
+
+The CTreeView class simplifies use of the tree control and of CTreeCtrl,
+the class that encapsulates tree-control functionality, with MFC’s document-view architecture.
+For more information on this architecture, see the overview for the CView class and the cross-
+references cited there. 
+
