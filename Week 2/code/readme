@@ -1,11 +1,13 @@
 code
 本文档概要介绍组成 MarkdownEditor 应用程序的每个文件的内容的初期设想。
+        基于c++实现在windows的桌面应用
 
 MarkdownEditor.h
-这是应用程序的主要头文件。它包括可能存在的其他外部项目特定的头文件，并声明 CMarkdownEditorApp 应用程序类。
+应用程序的主要头文件。
+包括可能存在的其他外部项目特定的头文件，并声明 CMarkdownEditorApp 应用程序类。
 
 MarkdownEditor.cpp
-这是包含应用程序类 CMarkdownEditorApp 的主要应用程序源文件。
+包含应用程序类 CMarkdownEditorApp 的主要应用程序源文件。
 
 对于主框架窗口:
 Windows 资源管理器样式: 项目将包含 Windows 资源管理器样式的界面，带有两个框架。
