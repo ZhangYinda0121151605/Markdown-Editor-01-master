@@ -49,17 +49,29 @@
 - 导出文件：根据用户的保存目录，导出Markdown格式文件；          
 
 ### 3.4 系统流程分析
-Markdown Editor使用时用户需要进行输入，输入后可以进行Markdown文本的转换和预览，以及导出文件等操作，系统总体使用流程如下图。        
+Markdown Editor使用时用户需要进行输入，输入后可以进行Markdown文本的转换和预览，以及导出文件等操作，系统总体使用流程如下图。         
 ![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/8.jpg)     
 
 ## 4 数据结构设计
-### 4.1 E-R实体图
-### 4.2 数据结构表
+### 4.1 E-R图
+![LiShaoang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/9.png)        
+
+### 4.2 数据流图
+![LiShaoang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/10.png)         
+
 ## 5 接口设计
 ### 5.1 用户接口
+本产品通过 PC 机进行运行、操作，相应时间由PC机自身处理速度决定。       
+
 ### 5.2 硬件接口
+对硬件要求较低。        
+
 ### 5.3 软件接口
+基本没有特殊要求。      
+
 ### 5.4 通信接口
+无特殊要求。      
+
 ## 6 运行设计
 ### 6.1 运行控制
 运行控制将严格按照各模块间的函数调用关系来实现。在各事务中心模块中，需对运行控制进行正确的判断，选择正确的运行控制路径。
