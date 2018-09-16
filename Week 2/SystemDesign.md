@@ -50,7 +50,12 @@
 
 ### 3.4 系统流程分析
 Markdown Editor使用时用户需要进行输入，输入后可以进行Markdown文本的转换和预览，以及导出文件等操作，系统总体使用流程如下图。         
-![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/8.jpg)     
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/8.jpg)   
+
+### 3.5 HIPO图
+HIPO图如下,该图增加了系统的可追踪性。
+HIPO图中的每张IPO图内都明显地标出了它所描绘的模块在层次图中的编号，以便追踪了解这个模块在软件结构中的位置。
+![ZhangYinda](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/11.jpg) 
 
 ## 4 数据结构设计
 ### 4.1 E-R图
