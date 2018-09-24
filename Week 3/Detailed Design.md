@@ -68,7 +68,7 @@
 	RETURN 解析后的html标记格式                
 
 	CASE 行首是- && 行尾是-
-		Paragraph();
+		Emphasize();
 	CASE 行首是< && 行尾是>
 		Mark();
 	DEFAULT 其他模块
@@ -112,3 +112,5 @@
 - 总模块 Main.cpp       
 
 ## 类图
+
+![Zhangyinda](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/class%20Diagram.png)
