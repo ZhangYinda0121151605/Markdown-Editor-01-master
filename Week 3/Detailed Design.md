@@ -32,7 +32,8 @@
 		List();
 	DEFAULT 其他模块
 
-![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/3.jpg)        
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/3.jpg)         
+
 根据段落和代码模块（Module2）流程图，设计对应程序描述语言如下：		
 
 	PROCEDURE Paragraph is:
@@ -56,7 +57,8 @@
 	CASE 全行为- || 全行为=
 		CutOff();
 	DEFAULT 其他模块
-![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/4.jpg)       			
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/4.jpg)       	  
+
 根据强调和标记模块（Module3）流程图，设计对应程序描述语言如下：		
 
 	PROCEDURE Emphasize is:
@@ -72,7 +74,8 @@
 	CASE 行首是< && 行尾是>
 		Mark();
 	DEFAULT 其他模块
-![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/5.jpg)       				
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/5.jpg)       		
+
 根据链接和图片模块（Module4）流程图，设计对应程序描述语言如下：		
 
 	PROCEDURE Link is:
@@ -91,7 +94,8 @@
 	CASE 该行为![]()格式
 		Image();
 	DEFAULT 其他模块
-![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/6.jpg)         				
+![YuHang](https://github.com/YuHang0121151624/Markdown-Editor-01/blob/master/img/6.jpg)         	
+
 根据导出文件模块（Module5）流程图，设计对应程序描述语言如下：		
 
 	PROCEDURE Save is:
